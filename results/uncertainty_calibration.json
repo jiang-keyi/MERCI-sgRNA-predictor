@@ -1,0 +1,136 @@
+{
+  "validation_stack": {
+    "n": 11077,
+    "spearman_unc_err": 0.35802321055954506,
+    "p_value": 0.0,
+    "quartiles": [
+      {
+        "quartile": 1,
+        "n": 2769,
+        "mean_abs_err": 0.051463616007639414,
+        "rmse": 0.08199446048293996,
+        "mean_unc": 2.4577923342637472e-05
+      },
+      {
+        "quartile": 2,
+        "n": 2769,
+        "mean_abs_err": 0.07232336018789497,
+        "rmse": 0.10267284501426774,
+        "mean_unc": 9.170769115122155e-05
+      },
+      {
+        "quartile": 3,
+        "n": 2769,
+        "mean_abs_err": 0.09836064304346062,
+        "rmse": 0.13076950156504494,
+        "mean_unc": 0.0002437370582766638
+      },
+      {
+        "quartile": 4,
+        "n": 2770,
+        "mean_abs_err": 0.11588514926024804,
+        "rmse": 0.1472032298778648,
+        "mean_unc": 0.0007512205719983443
+      }
+    ],
+    "uncertainty_type": "stack_disagreement"
+  },
+  "validation_base": {
+    "n": 11077,
+    "spearman_unc_err": 0.3701307742414039,
+    "p_value": 0.0,
+    "quartiles": [
+      {
+        "quartile": 1,
+        "n": 2769,
+        "mean_abs_err": 0.04614420676114196,
+        "rmse": 0.07422672605826235,
+        "mean_unc": 0.0003996536853411556
+      },
+      {
+        "quartile": 2,
+        "n": 2769,
+        "mean_abs_err": 0.0755794422352187,
+        "rmse": 0.10741562678542203,
+        "mean_unc": 0.0008427740831960669
+      },
+      {
+        "quartile": 3,
+        "n": 2769,
+        "mean_abs_err": 0.10297482146095717,
+        "rmse": 0.13425168622778977,
+        "mean_unc": 0.0014606975532610064
+      },
+      {
+        "quartile": 4,
+        "n": 2770,
+        "mean_abs_err": 0.11333521892684158,
+        "rmse": 0.14478699484582078,
+        "mean_unc": 0.0030391916058533355
+      }
+    ],
+    "uncertainty_type": "base_disagreement"
+  },
+  "external": [
+    {
+      "dataset": "Chari_293T_2015",
+      "n": 1105,
+      "spearman_unc_rankerr": 0.032831515483377045,
+      "p": 0.27552426595606033
+    },
+    {
+      "dataset": "Doench_A375_2016",
+      "n": 2332,
+      "spearman_unc_rankerr": -0.019371503819869677,
+      "p": 0.3497618500276857
+    },
+    {
+      "dataset": "Doench_Mm_2014",
+      "n": 945,
+      "spearman_unc_rankerr": -0.0499768009975828,
+      "p": 0.12472108848737973
+    },
+    {
+      "dataset": "Doench_NB4_2014",
+      "n": 873,
+      "spearman_unc_rankerr": 0.02852626531828564,
+      "p": 0.3998903525313031
+    },
+    {
+      "dataset": "Hart_Hct116_2016",
+      "n": 4172,
+      "spearman_unc_rankerr": -0.048190845060557104,
+      "p": 0.0018483733417044628
+    },
+    {
+      "dataset": "Hart_hela_2016",
+      "n": 3566,
+      "spearman_unc_rankerr": -0.0322683423770787,
+      "p": 0.05400925787902684
+    },
+    {
+      "dataset": "Moreno_Zb_2015",
+      "n": 1020,
+      "spearman_unc_rankerr": -0.025181643335852724,
+      "p": 0.42175602933930945
+    },
+    {
+      "dataset": "Ren_Ff_2015",
+      "n": 39,
+      "spearman_unc_rankerr": -0.0839715652449017,
+      "p": 0.6112852127235134
+    },
+    {
+      "dataset": "Varshney_Zb_2015",
+      "n": 88,
+      "spearman_unc_rankerr": -0.2565764963730275,
+      "p": 0.015820550437431215
+    },
+    {
+      "dataset": "Wang_HL60_2014",
+      "n": 1998,
+      "spearman_unc_rankerr": -0.02452223629933277,
+      "p": 0.27325471096462794
+    }
+  ]
+}
